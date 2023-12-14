@@ -1,27 +1,27 @@
 {
-  "_from": "cordova-plugin-firebase-analytics@5.0.0",
-  "_id": "cordova-plugin-firebase-analytics@5.0.0",
+  "_from": "cordova-plugin-firebase-analytics@4.3.1",
+  "_id": "cordova-plugin-firebase-analytics@4.3.1",
   "_inBundle": false,
-  "_integrity": "sha512-GiMpcr0dAcibo5lKvm4edvkmLFmOS0/3nBi1jpDEBvGKpVZWxHoU8iaQ7T28E2mbDmyd2GtLr631/1vlGcCrrg==",
+  "_integrity": "sha512-OiawcDHrkh+HMW2h7HPyMlgp4usZmCD9bZvZ82GyOP0A7octF9YO08anF+cL9kJF1cdDF4aZGH/X6a/X9j82rw==",
   "_location": "/cordova-plugin-firebase-analytics",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "cordova-plugin-firebase-analytics@5.0.0",
+    "raw": "cordova-plugin-firebase-analytics@4.3.1",
     "name": "cordova-plugin-firebase-analytics",
     "escapedName": "cordova-plugin-firebase-analytics",
-    "rawSpec": "5.0.0",
+    "rawSpec": "4.3.1",
     "saveSpec": null,
-    "fetchSpec": "5.0.0"
+    "fetchSpec": "4.3.1"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-firebase-analytics/-/cordova-plugin-firebase-analytics-5.0.0.tgz",
-  "_shasum": "4bde8ba55a2ea17e594499911ee02617193422e5",
-  "_spec": "cordova-plugin-firebase-analytics@5.0.0",
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-firebase-analytics/-/cordova-plugin-firebase-analytics-4.3.1.tgz",
+  "_shasum": "f5a4559d53ea081837feb4229226bfb9bcb5e636",
+  "_spec": "cordova-plugin-firebase-analytics@4.3.1",
   "_where": "/Users/chandanverma/Desktop/untitled folder",
   "author": {
     "name": "Maksim Chemerisuk",
@@ -41,7 +41,6 @@
   },
   "deprecated": false,
   "description": "Cordova plugin for Firebase Analytics",
-  "funding": "https://github.com/chemerisuk/cordova-plugin-firebase-analytics?sponsor=1",
   "homepage": "https://github.com/chemerisuk/cordova-plugin-firebase-analytics#readme",
   "keywords": [
     "cordova",
@@ -61,5 +60,5 @@
     "postversion": "git push && git push --tags",
     "version": "replace -s 'version=\"(.+)(?=\">)' 'version=\"'$npm_package_version plugin.xml && git add plugin.xml"
   },
-  "version": "5.0.0"
+  "version": "4.3.1"
 }
