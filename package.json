@@ -1,27 +1,27 @@
 {
-  "_from": "cordova-plugin-firebase-analytics@6.0.1",
-  "_id": "cordova-plugin-firebase-analytics@6.0.1",
+  "_from": "cordova-plugin-firebase-analytics@5.0.0",
+  "_id": "cordova-plugin-firebase-analytics@5.0.0",
   "_inBundle": false,
-  "_integrity": "sha512-OeqGO1FZx7cclP8ztrV6QtPGeqfZOXT3npmsuSFI1XADLQ8Jg83DNd7aHNj7OURKK0fHePQlMMkqlv9SJRLJ5w==",
+  "_integrity": "sha512-GiMpcr0dAcibo5lKvm4edvkmLFmOS0/3nBi1jpDEBvGKpVZWxHoU8iaQ7T28E2mbDmyd2GtLr631/1vlGcCrrg==",
   "_location": "/cordova-plugin-firebase-analytics",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "cordova-plugin-firebase-analytics@6.0.1",
+    "raw": "cordova-plugin-firebase-analytics@5.0.0",
     "name": "cordova-plugin-firebase-analytics",
     "escapedName": "cordova-plugin-firebase-analytics",
-    "rawSpec": "6.0.1",
+    "rawSpec": "5.0.0",
     "saveSpec": null,
-    "fetchSpec": "6.0.1"
+    "fetchSpec": "5.0.0"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-firebase-analytics/-/cordova-plugin-firebase-analytics-6.0.1.tgz",
-  "_shasum": "2013252e6448283c9ad0da0558124549c91f7900",
-  "_spec": "cordova-plugin-firebase-analytics@6.0.1",
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-firebase-analytics/-/cordova-plugin-firebase-analytics-5.0.0.tgz",
+  "_shasum": "4bde8ba55a2ea17e594499911ee02617193422e5",
+  "_spec": "cordova-plugin-firebase-analytics@5.0.0",
   "_where": "/Users/chandanverma/Desktop/untitled folder",
   "author": {
     "name": "Maksim Chemerisuk",
@@ -59,7 +59,7 @@
   },
   "scripts": {
     "postversion": "git push && git push --tags",
-    "version": "perl -p -i -e 's/(version=)\"\\d+\\.\\d+\\.\\d+\"/$1\"'$npm_package_version'\"$2/' plugin.xml && git add plugin.xml"
+    "version": "replace -s 'version=\"(.+)(?=\">)' 'version=\"'$npm_package_version plugin.xml && git add plugin.xml"
   },
-  "version": "6.0.1"
+  "version": "5.0.0"
 }
